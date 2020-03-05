@@ -141,7 +141,7 @@ def dpdm_block(model=None,log10_ma=None,log10_eps=None):
     if log10_ma == None:
         log10_ma  = parameter.Uniform(-23.5, -21.0)(name + '_log10_ma')
     if log10_eps == None:
-        log10_eps = parameter.Uniform(-30.0, -16.0)(name + '_log10_eps')
+        log10_eps = parameter.Uniform(-28.0, -16.0)(name + '_log10_eps')
 
     normA2_1_e = Gamma(1, 0, 1)(name + "_normA2_1_e")
     normA2_2_e = Gamma(1, 0, 1)(name + "_normA2_2_e")
