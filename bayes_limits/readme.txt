@@ -1,4 +1,3 @@
-a: uniform epsilon modes=30
 b: log-uniform epsilon modes=30
 
 1. U1B
