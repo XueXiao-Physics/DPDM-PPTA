@@ -26,8 +26,8 @@ def get_pulsar_noise(pta , ret, ro):
         groups0.extend([range(ndim)])
 
         groups1 = [range(ndim)]
-        outDir0='/home/sdd/xuex/noise/first_run_2/'+pta.pulsars[0]
-        outDir1='/home/sdd/xuex/noise/second_run_2/'+pta.pulsars[0]
+        outDir0='/home/sdd/xuex/noise/first_run/'+pta.pulsars[0]
+        outDir1='/home/sdd/xuex/noise/second_run/'+pta.pulsars[0]
 
         if ro==False:
                 x0 = np.zeros(ndim)
@@ -69,7 +69,7 @@ timfiles = sorted(glob.glob(datadir + '/toas/*.tim'))
 
 psrs=[]
 for ipsr in range(len(parfiles)):
-    psr = Pulsar(parfiles[ipsr], timfiles[ipsr])
+    psr = Pulsar(parfiles[ipsr], timfiles[ipsr],ephem="DE436",clk="TT(BIPM2018)")
     psrs.append(psr)
     print(psr.name)
 
@@ -131,4 +131,4 @@ Dict = {}
 for x in MLHselect:
         Dict.update(x[0])
 
-np.save('noise_chain/noisepars_2_m'+str(nmodes),Dict)
+np.save('noise_chain/noisepars_m'+str(nmodes),Dict)
