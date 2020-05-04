@@ -3,7 +3,7 @@ import subprocess
 import multiprocessing
 import os
 
-parfiles = sorted(glob.glob('newpars/*.par'))
+parfiles = sorted(glob.glob('parameterFiles/*.par'))
 timfiles = sorted(glob.glob('toas/*.tim'))
 name=[os.path.basename(p) for p in parfiles]
 
