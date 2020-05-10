@@ -4,76 +4,260 @@ under conditions of GPL license.
 
 [tempo2Util.C:386] Warning: [TIM1] Please place MODE flags in the parameter file 
 Updating TOA errors using TN parameters.
+[tempo2Util.C:386] Warning: [CLK3] no clock corrections available for clock TT(BIPM2018) for MJD 53041.8
+[tempo2Util.C:386] Warning: [CLK4] Trying assuming UTC = UTC(pks)
+[tempo2Util.C:391] Warning: [DUP1] duplicated warnings have been suppressed.
+[tempo2Util.C:386] Warning: [CLK5] Trying TT(TAI) instead of  TT(BIPM2018)
+[tempo2Util.C:386] Warning: [CLK9] ... ok, using stated approximation 
 [tempo2Util.C:387] [TROP2] Assume standard atmospheric pressure (no data) for site pks at MJD 53041.8
 [tempo2Util.C:387] [TROP1] Assume zero zenith wet delay (no data) for site pks  at MJD 53041.8
-[tempo2Util.C:391] Warning: [DUP1] duplicated warnings have been suppressed.
 [TKfit.C:344] SVD nparams=400 nconst=360 ndata=5347
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 0 -0.000944496 6.21811e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 1 -3.98024e-05 3.49971e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 2 4.20326e-05 2.70346e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 3 9.78442e-07 2.37744e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 4 0.000128837 2.01481e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 5 -1.12734e-07 1.8495e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 6 -6.71662e-05 1.81307e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 7 3.77519e-05 1.63143e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 8 2.06191e-06 1.54755e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 9 -6.43483e-05 1.4112e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 10 2.99146e-05 1.35366e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 11 4.27753e-06 1.24681e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 12 -1.2813e-05 1.18663e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 13 1.16519e-05 1.17239e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 14 1.14046e-05 1.07332e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 15 -2.92235e-06 1.00714e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 16 4.44698e-06 9.47832e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 17 -3.32062e-06 8.99569e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 18 -1.74288e-06 8.62167e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 19 3.456e-06 8.1438e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 20 5.71573e-06 7.80318e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 21 5.30077e-06 7.4425e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 22 -3.51015e-07 7.17091e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 23 7.71736e-07 6.88577e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 24 6.65442e-06 6.59949e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 25 3.83499e-07 6.32621e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 26 -5.11483e-06 6.11717e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 27 2.81683e-06 5.89142e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 28 -3.23429e-06 5.68392e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 29 8.83441e-07 5.4897e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 30 4.52534e-06 5.31138e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 31 1.30208e-07 5.12873e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 32 -1.79682e-06 4.97876e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 33 2.69224e-06 4.84149e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 34 1.02948e-06 4.68325e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 35 -9.87899e-07 4.56013e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 36 -1.8664e-06 4.42704e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 37 -1.29122e-06 4.30072e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 38 -2.78859e-07 4.19319e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 39 1.77616e-06 4.08468e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 40 7.08057e-07 3.97508e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 41 -1.58256e-07 3.88e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 42 -6.46841e-07 3.77905e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 43 1.72454e-07 3.68946e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 44 2.61279e-07 3.60182e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 45 -8.38512e-07 3.51599e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 46 -9.82536e-07 3.44221e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 47 5.42041e-07 3.36298e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 48 -1.95026e-08 3.29475e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 49 9.99187e-07 3.22079e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 50 6.36488e-07 3.15238e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 51 -1.72837e-08 3.09208e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 52 1.54018e-06 3.03057e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 53 -6.19752e-07 2.96791e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 54 -1.15848e-06 2.90903e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 55 -1.4231e-07 2.85393e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 56 1.49752e-07 2.80119e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 57 -1.10991e-06 2.74931e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 58 4.18781e-07 2.70019e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 59 2.87586e-07 2.65196e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 60 -7.46306e-07 2.6036e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 61 6.73312e-07 2.55821e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 62 1.96239e-07 2.51576e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 63 3.20316e-08 2.47416e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 64 2.16713e-08 2.43236e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 65 -1.1928e-07 2.39322e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 66 5.28352e-07 2.35391e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 67 -3.21169e-08 2.31768e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 68 -7.36359e-08 2.28128e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 69 5.72619e-07 2.24516e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 70 -2.06207e-07 2.21286e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 71 -2.00737e-07 2.17949e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 72 -1.1884e-07 2.14627e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 73 -3.34467e-07 2.11628e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 74 -3.3112e-07 2.08485e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 75 1.19007e-07 2.05551e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 76 -1.7052e-07 2.02667e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 77 -9.70658e-08 1.99878e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 78 2.14826e-07 1.97078e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 79 -3.78759e-07 1.94382e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 80 5.8496e-08 1.91834e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 81 3.70712e-07 1.89337e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 82 -3.7773e-08 1.86838e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 83 -1.5868e-07 1.84362e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 84 -2.01526e-07 1.82135e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 85 -4.31871e-07 1.79736e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 86 1.81837e-07 1.77556e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 87 2.01004e-07 1.75385e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 88 -3.57249e-08 1.73188e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_sin 89 -1.57732e-07 1.71136e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 0 5.61025e-05 0.000185717
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 1 0.000119411 5.48561e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 2 0.000261669 3.09773e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 3 -9.24321e-05 2.38505e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 4 -0.000196528 2.18145e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 5 6.05364e-05 1.9543e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 6 -2.3689e-05 1.69362e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 7 -5.70576e-05 1.63227e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 8 5.71567e-05 1.49128e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 9 -1.11324e-05 1.42948e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 10 -3.12594e-05 1.31026e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 11 4.44533e-05 1.26142e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 12 -1.88812e-06 1.18329e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 13 -3.076e-05 1.1767e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 14 -9.38886e-06 1.09024e-05
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 15 6.9325e-06 9.88202e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 16 -1.81179e-05 9.4225e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 17 -1.05283e-06 8.9484e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 18 3.8411e-07 8.47489e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 19 3.0062e-06 8.16868e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 20 -5.97267e-06 7.78029e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 21 -9.16213e-07 7.46938e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 22 1.59205e-06 7.12215e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 23 -4.9429e-06 6.8262e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 24 -2.29004e-06 6.57866e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 25 2.84361e-06 6.35539e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 26 -7.28352e-06 6.10096e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 27 1.17162e-06 5.94e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 28 4.35768e-07 5.71328e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 29 -1.2816e-06 5.49396e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 30 -1.37071e-06 5.3118e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 31 3.8909e-06 5.15549e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 32 -1.12662e-06 4.98548e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 33 -1.43577e-06 4.82125e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 34 2.90654e-07 4.6954e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 35 -1.79034e-06 4.54812e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 36 -1.81863e-07 4.424e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 37 3.24698e-07 4.30797e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 38 -6.34203e-07 4.18523e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 39 8.41848e-07 4.07341e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 40 1.31648e-06 3.97407e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 41 -4.80219e-08 3.87045e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 42 -6.15777e-07 3.78084e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 43 -2.80653e-08 3.68925e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 44 8.81201e-07 3.60377e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 45 -9.01782e-07 3.52357e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 46 -6.86919e-08 3.43878e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 47 -4.02335e-07 3.3664e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 48 -2.76224e-07 3.28875e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 49 -3.12446e-07 3.22229e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 50 1.25171e-06 3.15593e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 51 3.80241e-07 3.08789e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 52 -9.48713e-07 3.02494e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 53 1.10952e-06 2.9676e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 54 6.38255e-07 2.91107e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 55 -6.20878e-08 2.8549e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 56 5.85286e-07 2.80056e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 57 1.15236e-07 2.74874e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 58 -5.43639e-08 2.69826e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 59 4.21517e-07 2.64997e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 60 -2.16783e-07 2.60504e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 61 5.93687e-09 2.56037e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 62 1.17029e-07 2.51564e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 63 3.40954e-07 2.47253e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 64 8.99268e-08 2.43252e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 65 3.75019e-07 2.39269e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 66 -1.89998e-07 2.3551e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 67 1.32587e-07 2.31688e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 68 -4.89195e-07 2.28113e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 69 -2.59332e-07 2.24704e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 70 1.24858e-07 2.21101e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 71 -4.23433e-07 2.17804e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 72 -2.8214e-07 2.14701e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 73 -2.21153e-07 2.11436e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 74 -5.12711e-07 2.08474e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 75 1.49313e-07 2.05496e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 76 2.42899e-07 2.02614e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 77 -3.03549e-07 1.99798e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 78 2.14254e-07 1.97124e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 79 6.71206e-08 1.945e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 80 -1.64785e-07 1.91848e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 81 -2.87195e-08 1.89271e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 82 -3.04218e-07 1.86827e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 83 -6.3916e-08 1.84494e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 84 1.19404e-07 1.82018e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 85 7.35479e-08 1.79823e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 86 1.64201e-08 1.7753e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 87 5.12919e-07 1.75336e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 88 1.66027e-07 1.73255e-06
+[t2fit_nestlike.C:113] 0 param_red_dm_cos 89 -2.61185e-08 1.71123e-06
 [tempo2.C:565] Complete fit
 
 
 Results for PSR J1603-7202
 
 
-RMS pre-fit residual = 3.868 (us), RMS post-fit residual = 3.866 (us)
-Fit Chisq = 5314	Chisqr/nfree = 5314.50/5307 = 1.00141	pre/post = 1.00072
+RMS pre-fit residual = 3.884 (us), RMS post-fit residual = 3.884 (us)
+Fit Chisq = 5315	Chisqr/nfree = 5314.90/5307 = 1.00149	pre/post = 0.999985
 Number of fit parameters: 400
 Number of points in fit = 5347
-Offset: -3.26598e-07 2.50782e-06 offset_e*sqrt(n) = 0.00018338 n = 5347
+Offset: -3.88311e-07 2.50792e-06 offset_e*sqrt(n) = 0.000183387 n = 5347
 
 
 PARAMETER       Pre-fit                   Post-fit                  Uncertainty   Difference   Fit
 ---------------------------------------------------------------------------------------------------
-RAJ (rad)       4.2044745942921           4.2044745941583           7.8421e-10    -1.3381e-10   Y
-RAJ (hms)       16:03:35.6758375           16:03:35.6758357         1.0784e-05    -1.84e-06    
-DECJ (rad)      -1.25737762800556         -1.25737762810029         2.9568e-10    -9.4733e-11   Y
-DECJ (dms)      -72:02:32.75282           -72:02:32.75284           6.0987e-05    -1.954e-05   
-F0 (s^-1)       67.3765811248757          67.3765811248757          1.9605e-13    0             Y
-F1 (s^-2)       -7.09534331697892e-17     -7.09534297943949e-17     1.9417e-21    3.3754e-24    Y
+RAJ (rad)       4.20447459413212          4.20447459413258          7.8424e-10    4.6807e-13    Y
+RAJ (hms)       16:03:35.6758353           16:03:35.6758353         1.0784e-05    6.4364e-09   
+DECJ (rad)      -1.25737762810252         -1.25737762810592         2.9569e-10    -3.3988e-12   Y
+DECJ (dms)      -72:02:32.75284           -72:02:32.75284           6.099e-05     -7.0106e-07  
+F0 (s^-1)       67.3765811248758          67.3765811248758          1.9606e-13    0             Y
+F1 (s^-2)       -7.09545713333774e-17     -7.09545713327744e-17     1.9418e-21    6.03e-28      Y
 PEPOCH (MJD)    55637                     55637                     0             0             N
 POSEPOCH (MJD)  55637                     55637                     0             0             N
 DMEPOCH (MJD)   55637                     55637                     0             0             N
-DM (cm^-3 pc)   38.0420714840647          38.0420111313764          0.0005708     -6.0353e-05   Y
-DM1 (cm^-3 pc y -4.9870812491898e-05      -4.91144004706181e-05     1.9416e-05    7.5641e-07    Y
-DM2 (cm^-3 pc y -4.17141933280934e-05     -4.16043871776587e-05     9.1804e-06    1.0981e-07    Y
-PMRA (mas/yr)   -2.43746277758225         -2.43791658776992         0.012311      -0.00045381   Y
-PMDEC (mas/yr)  -7.34664901443761         -7.34593997050378         0.015408      0.00070904    Y
-PX (mas)        0.70193144871792          0.780770817908201         0.42313       0.078839      Y
-PB (d)          6.30862966961311          6.30862966960175          3.5531e-10    -1.1369e-11   Y
-T0 (MJD)        50429.262997443           50429.2632132519          0.0018372     0.00021581    Y
-A1 (lt-s)       6.88065799106039          6.88065798769067          2.5123e-07    -3.3697e-09   Y
-OM (deg)        169.82301079343           169.835325653798          0.10484       0.012315      Y
-ECC             9.31836491578419e-06      9.31576030809783e-06      1.7781e-08    -2.6046e-09   Y
-PBDOT           1.73801087920172e-13      1.76526708852879e-13      6.5833e-14    2.7256e-15    Y
-XDOT            1.3146986455553e-14       1.31515591521881e-14      5.1174e-16    4.5727e-18    Y
-START (MJD)     53040.803184912           53041.8071521301          0             1.004         N
-FINISH (MJD)    58233.5743216307          58232.5674766518          0             -1.0068       N
+DM (cm^-3 pc)   38.0420158746189          38.0420159393611          0.00057082    6.4742e-08    Y
+DM1 (cm^-3 pc y -4.92313373510797e-05     -4.92297258260847e-05     1.9417e-05    1.6115e-09    Y
+DM2 (cm^-3 pc y -4.17154434414664e-05     -4.17155737538677e-05     9.1807e-06    -1.3031e-10   Y
+PMRA (mas/yr)   -2.43772230593561         -2.4377226613059          0.012311      -3.5537e-07   Y
+PMDEC (mas/yr)  -7.34588422790078         -7.34588398498579         0.015409      2.4291e-07    Y
+PX (mas)        0.777716749178055         0.777707113546347         0.42315       -9.6356e-06   Y
+PB (d)          6.30862966959316          6.30862966959314          3.5532e-10    -2.4869e-14   Y
+T0 (MJD)        50429.2632056764          50429.2632056911          0.0018378     1.4719e-08    Y
+A1 (lt-s)       6.8806579860891           6.88065798607604          2.5124e-07    -1.3062e-11   Y
+OM (deg)        169.834893199725          169.834894039068          0.10487       8.3934e-07    Y
+ECC             9.31583686623203e-06      9.31583522270274e-06      1.7781e-08    -1.6435e-12   Y
+PBDOT           1.78172713983928e-13      1.78176978677894e-13      6.5836e-14    4.2647e-18    Y
+XDOT            1.31515411875092e-14      1.31515808593061e-14      5.1175e-16    3.9672e-20    Y
+START (MJD)     53041.8061521301          53041.8061521301          0             0             N
+FINISH (MJD)    58232.5684766518          58232.5684766518          0             0             N
 TZRMJD          55644.5440929755          55644.5440929755          0             0             N
 TZRFRQ (MHz)    1417.062988               1417.062988               0             0             N
 TZRSITE         pks                      
-FD1             -6.55459309051955e-05     -6.57895395051834e-05     4.3317e-06    -2.4361e-07   Y
-FD2             9.62596746299647e-06      9.82670046196726e-06      2.7225e-06    2.0073e-07    Y
-TRES            3.864                     3.86561883393297          0             0.0016188     N
+FD1             -6.57868400417486e-05     -6.57862561594681e-05     4.3319e-06    5.8388e-10    Y
+FD2             9.83644303626163e-06      9.83614717071652e-06      2.7226e-06    -2.9587e-10   Y
+TRES            3.884                     3.88390383670103          0             -9.6163e-05   N
 EPHVER          TEMPO2                    TEMPO2                    0             0             N
 NE_SW (cm^-3)   7.9                       7.9                       0             0             N
 ---------------------------------------------------------------------------------------------------
 [textOutput.C:273] Notice: Parameter uncertainties multiplied by sqrt(red. chisq)
 
-Jump 1 ( -h 20CM_H-OH_CPSR2m -9.0564155935412e-07 1): -9.5569492052816e-07 1.5420608572027e-06 Y
-Jump 2 ( -h 20CM_H-OH_CPSR2n -5.5573198387325e-07 1): -6.0839820070708e-07 1.5145446204355e-06 Y
-Jump 3 ( -h 20CM_MULTI_CPSR2m -1.671686042328e-06 1): -1.7460278546843e-06 1.3996341265923e-06 Y
-Jump 4 ( -h 20CM_MULTI_CPSR2n -1.0294049054339e-06 1): -1.1030316021195e-06 1.3826029124736e-06 Y
-Jump 5 ( -g 50CM_CPSR2 2.3813424050078e-06 1): 2.324293814889e-06 1.8038468787235e-06 Y
-Jump 6 ( -h 20CM_H-OH_PDFB1 -2.0131300980768e-06 1): -2.0957690732055e-06 1.3202399569271e-06 Y
-Jump 7 ( -h 20CM_MULTI_PDFB1 -8.6026026667344e-07 1): -9.4490548164445e-07 1.3158316757585e-06 Y
-Jump 8 ( -g 10CM_PDFB1 -1.2379685045723e-07 1): -1.0628579524181e-07 2.5677376267564e-06 Y
-Jump 9 ( -g 20CM_PDFB2 -6.8242189845848e-08 1): -1.5443385997443e-07 1.2792856250329e-06 Y
-Jump 10 ( -g 10CM_PDFB2 1.4214690886786e-06 1): 1.3814025894597e-06 9.4746328801253e-07 Y
-Jump 11 ( -g 20CM_PDFB3 -3.5930724818019e-06 1): -3.7051837165717e-06 1.3284380867193e-06 Y
-Jump 12 ( -g 40CM_PDFB3 2.2849507425191e-06 1): 2.1881891316556e-06 1.5848764555347e-06 Y
-Jump 13 ( -g 40CM_CASPSR -3.2343161740802e-07 1): -3.5665721972575e-07 1.5328853596738e-06 Y
-Jump 14 ( -g 20CM_PDFB4 -2.4953542264719e-06 1): -2.5764752884932e-06 1.2180153407346e-06 Y
-Jump 15 ( -g 10CM_WBCORR 2.803591356541e-06 1): 2.8308768908885e-06 1.464142762349e-06 Y
-Jump 16 ( -h 20CM_H-OH_PDFB4 4.6953423637892e-07 1): 4.9091918497028e-07 3.1005334501433e-07 Y
+Jump 1 ( -h 20CM_H-OH_CPSR2m -8.4928568704542e-07 1): -8.4936706514171e-07 1.5421139881958e-06 Y
+Jump 2 ( -h 20CM_H-OH_CPSR2n -5.0470211200836e-07 1): -5.0478211698652e-07 1.5145967305199e-06 Y
+Jump 3 ( -h 20CM_MULTI_CPSR2m -1.6720795339572e-06 1): -1.6720916814886e-06 1.3996818402632e-06 Y
+Jump 4 ( -h 20CM_MULTI_CPSR2n -1.0340744280921e-06 1): -1.0340931077338e-06 1.3826499780145e-06 Y
+Jump 5 ( -g 50CM_CPSR2 2.4382619266137e-06 1): 2.4381749747226e-06 1.8039112605725e-06 Y
+Jump 6 ( -h 20CM_H-OH_PDFB1 -2.0752456321992e-06 1): -2.0752904734027e-06 1.3202847700199e-06 Y
+Jump 7 ( -h 20CM_MULTI_PDFB1 -8.8657695136267e-07 1): -8.8661961802847e-07 1.3158763251e-06 Y
+Jump 8 ( -g 10CM_PDFB1 -6.1231139066549e-08 1): -6.1305653829535e-08 2.5678274504005e-06 Y
+Jump 9 ( -g 20CM_PDFB2 -1.5673944675789e-07 1): -1.5676043316698e-07 1.279328948194e-06 Y
+Jump 10 ( -g 10CM_PDFB2 1.3585534849353e-06 1): 1.3585429647363e-06 9.4749506909812e-07 Y
+Jump 11 ( -g 20CM_PDFB3 -3.6971825101698e-06 1): -3.6972444217161e-06 1.3284835462871e-06 Y
+Jump 12 ( -g 40CM_PDFB3 2.2613511505635e-06 1): 2.261229235951e-06 1.584932825894e-06 Y
+Jump 13 ( -g 40CM_CASPSR -2.4457013251754e-07 1): -2.4456920455581e-07 1.5329399275138e-06 Y
+Jump 14 ( -g 20CM_PDFB4 -2.5622506069596e-06 1): -2.562309220987e-06 1.2180562242705e-06 Y
+Jump 15 ( -g 10CM_WBCORR 2.9244971974873e-06 1): 2.924557300261e-06 1.4641922763952e-06 Y
+Jump 16 ( -h 20CM_H-OH_PDFB4 4.8742224414915e-07 1): 4.8743820173886e-07 3.1006489460591e-07 Y
 Jump 17 ( -cpsr2_50cm 1 -2.36e-06 0): -2.36e-06 0 N
 Jump 18 ( -cpsr2m_1341 1 -1.72e-06 0): -1.72e-06 0 N
 Jump 19 ( -cpsr2n_1405 1 -1.8e-06 0): -1.8e-06 0 N
@@ -97,25 +281,25 @@ Jump 36 ( -caspsr_55500_57575_cals 1 -1.31e-06 0): -1.31e-06 0 N
 Jump 37 ( -pdfb4_57575_65000_cals 1 1.71e-07 0): 1.71e-07 0 N
 Jump 38 ( -pdfb4_56160_57575_cals 1 4.25e-07 0): 4.25e-07 0 N
 Jump 39 ( -caspsr_57575_65000_cals 1 -1.533e-06 0): -1.533e-06 0 N
-Jump 40 ( -j 10CM_55319_PDFB4 1.0487674208622e-06 1): 1.0638832934464e-06 8.0141563661429e-07 Y
-Jump 41 ( -j 20CM_55319_PDFB4 -6.4197744046844e-08 1): -7.1100558319321e-08 4.2849077155337e-07 Y
-Jump 42 ( -j 20CM_55319_PDFB3 1.0906478461155e-06 1): 1.1140844911515e-06 7.3742529938925e-07 Y
-Jump 43 ( -j 40CM_55319_PDFB3 -1.5489729422166e-06 1): -1.548216540218e-06 9.1394025625352e-07 Y
+Jump 40 ( -j 10CM_55319_PDFB4 1.2006702069147e-06 1): 1.2006021081731e-06 8.0144281018725e-07 Y
+Jump 41 ( -j 20CM_55319_PDFB4 2.8904527295743e-08 1): 2.8929828941791e-08 4.2850675303183e-07 Y
+Jump 42 ( -j 20CM_55319_PDFB3 1.2411756149529e-06 1): 1.2411827470129e-06 7.3745305674768e-07 Y
+Jump 43 ( -j 40CM_55319_PDFB3 -1.5430334900223e-06 1): -1.5429832450373e-06 9.1397425719122e-07 Y
 
 Derived parameters:
 
-P0 (s)      = 0.0148419522526173        4.3187e-17   
-P1          = 1.56298731634372e-20      4.2773e-25   
-tau_c (Myr) = 15056
+P0 (s)      = 0.0148419522526173        4.3189e-17   
+P1          = 1.563012462556e-20        4.2774e-25   
+tau_c (Myr) = 15055
 bs (G)      = 4.8739e+08
 
 Binary model: T2
-Mass function                  = 0.008788253421  +- 0.000000000962 solar masses 
+Mass function                  = 0.008788253415  +- 0.000000000962 solar masses 
 Minimum, median and maximum companion mass: 0.2866 < 0.3378 < 0.7850 solar masses
 
-Parallax distance is 1280.79 (+/- 694.112) pc.
-Pbdot distance is 2225.45 (+/- 829.95) pc.
-Total proper motion = 7.7399 +/- 0.015129 mas/yr
+Parallax distance is 1285.83 (+/- 699.617) pc.
+Pbdot distance is 2246.32 (+/- 830.005) pc.
+Total proper motion = 7.7398 +/- 0.01513 mas/yr
 Total time span = 5190.760 days = 14.212 years
 
 Tempo2 usage
@@ -132,8 +316,12 @@ In here writing a new parameter file: new.par
 [textOutput.C:1516] Warning: There are output parameters with very high covariance
                   OM                   T0 +1.00000
                PBDOT                   PB -0.99300
-Notice: There were 3 warnings. Summaries are shown below, check logs for full details.
+Notice: There were 7 warnings. Summaries are shown below, check logs for full details.
 Warning #1: [TIM1] Please place MODE flags in the parameter file 
-Warning #2: [DUP1] duplicated warnings have been suppressed.
-Warning #3: There are output parameters with very high covariance
-Finishing off: time taken = 35.54 (s)
+Warning #2: [CLK3] no clock corrections available for clock TT(BIPM2018) for MJD 53041.8
+Warning #3: [CLK4] Trying assuming UTC = UTC(pks)
+Warning #4: [DUP1] duplicated warnings have been suppressed.
+Warning #5: [CLK5] Trying TT(TAI) instead of  TT(BIPM2018)
+Warning #6: [CLK9] ... ok, using stated approximation 
+Warning #7: There are output parameters with very high covariance
+Finishing off: time taken = 31.88 (s)
