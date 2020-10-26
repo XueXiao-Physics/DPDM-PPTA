@@ -4,7 +4,7 @@ import scipy.constants as sc
 import scipy.stats as ss
 import numpy as np
 
-
+#TODO a exponential prior equals to a gamma prior of a=b=1.
 def GammaPrior(value, a, loc, scale):
     """Prior function for Uniform parameters."""
 
