@@ -20,19 +20,19 @@ def createfourierdesignmatrix_red(toas, nmodes=30, Tspan=None):
 
     
     # The sine/cosine modes
-    F[:, ::2] = np.sin(2 * np.pi * toas[:, None] * f[None, :])
-    F[:, 1::2] = np.cos(2 * np.pi * toas[:, None] * f[None, :])
-
+    F[:, ::2] = np.sin(2 * np.pi * toas[:, None] * f[None, :-1])
+    F[:, 1::2] = np.cos(2 * np.pi * toas[:, None] * f[None, :-1])
+    
+    # Ffreqs has (nmodes+1)*2 length.
     return F, Ffreqs
 
 
 @function
-def createfourierdesignmatrix_dm(toas, freqs, nmodes=30, Tspan=None):
+def createfourierdesignmatrix_dm(toas, freqs, fref=1400., nmodes=30, Tspan=None):
 
 
     F, Ffreqs = createfourierdesignmatrix_red(toas, nmodes=nmodes, Tspan=Tspan)
 
-    # (nu/nu_ref)**2
     Dm = (fref / freqs) ** 2
 
     return F * Dm[:, None], Ffreqs
