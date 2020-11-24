@@ -36,12 +36,12 @@ def delay_U1B(toas, pos, log10_ma, log10_eps, normA2_1_e, normA2_2_e, normA2_3_e
 
     e   = np.sqrt( sc.alpha * 4 * np.pi )
     rvt2s  = sc.hbar / ( sc.electron_volt )
-    bq2m = 2 * sc.electron_volt / ( ( sc.m_p + sc.m_n ) * sc.c ** 2) * 1e9
+    bq2m = 2 * sc.electron_volt / ( ( sc.m_p + sc.m_n ) * sc.c ** 2) * 1e9 # 1/GeV
 
-    ma = 10**log10_ma   
+    ma = 10**log10_ma  # eV
     eps = 10**log10_eps
 
-    A0 = 2.48e-12 * (1.0 / ma) * (1.0 / np.sqrt(3.0))
+    A0 = 2.48e-12 * (1.0 / ma) * (1.0 / np.sqrt(3.0)) # GeV
     twopif = 2 * np.pi * ma * sc.electron_volt / sc.h
 
     dx_e1 = - A0 * np.sqrt(normA2_1_e) * eps * e * (1.0 / ma) * bq2m * np.sin(twopif * toas + phase1_e)
